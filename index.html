@@ -17,8 +17,8 @@
         <link rel="canonical" href="https://www.lejeudutitre.com/"/>*
         <link rel="stylesheet" href="css/uikit.min.css"/>
         <link rel="stylesheet" href="css/cards.css"/>
-        <script src="js/uikit.min.js"></script>
-        <script src="js/uikit-icons.min.js"></script>
+        <script src="lib/uikit.min.js"></script>
+        <script src="lib/uikit-icons.min.js"></script>
         <title>Le jeu du titre</title>
     </head>
     <body data-uk-filter="target: .js-filter">
@@ -60,7 +60,7 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li class="uk-visible@s"><a href="mailto:proposition@lejeudutitre.com" target="_blank" data-uk-icon="icon:pencil" data-uk-tooltip="title:Proposer un titre"></a></li>
+                            <li class="uk-visible@s"><a href="mailto:proposition@lejeudutitre.com?subject=Proposition de titre&body=Je vous écrit avec toute la déférence nécessaire pour soumettre à votre bonté le titre suivant. Je n'oublie pas de préciser le contexte de la cocasserie afin d'en extraire tout le suc humoristique." target="_blank" data-uk-icon="icon:pencil" data-uk-tooltip="title:Proposer un titre"></a></li>
                             <li class="uk-visible@s"><a href="#" target="_blank" data-uk-icon="icon:credit-card" data-uk-tooltip="title:Le Wall of Shame" uk-toggle="target: #modal-close-default"></a></li>
                             <li class="uk-hidden@s"><a data-uk-navbar-toggle-icon data-uk-toggle href="#offcanvas-nav"></a></li>
                         </ul>
@@ -102,7 +102,7 @@
                     <ul class="uk-list uk-list-striped">
                         <li>LeChaps <i>le créateur</i></li>
                     </ul>
-                    <p>On va pas mentir, pour l'instant c'est un peu limité, mais je suis sur que vous n'aurez pas honte de figurer ici !</p>
+                    <p>On va pas se mentir, pour l'instant c'est un peu limité, mais je suis sur que vous n'aurez pas honte de figurer ici !</p>
                 </div>
                 <div class="uk-modal-footer uk-text-right">
                     <button class="uk-button uk-button-primary uk-modal-close" type="button">Fermer</button>
@@ -127,17 +127,19 @@
         <!--FOOTER-->
         <footer id="site-foot" class="uk-section uk-section-secondary uk-section-xsmall">
             <div class="uk-container uk-text-small uk-text-center">
-                <a href="https://www.lejeudutitre.com">Created by LeChaps</a>
+                <a href="https://www.lejeudutitre.com">Created by LeChaps</a>&nbsp;
                 <a href="https://www.twitter.com/lejeudutitre"  target="_blank" data-uk-icon="icon:twitter"></a>
                 <a href="https://www.facebook.com/lejeudutitre" target="_blank" data-uk-icon="icon:facebook"></a>
             </div>
         </footer>
         <!--/FOOTER-->        
         <!-- JS FILES -->
-        <script src="js/vue.min.js"></script>
+        <script src="lib/vue.min.js"></script>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v3.3"></script>
         <!-- /JS FILES -->
         <!-- JS HOME FILES -->
-        <script src="index.js"></script>
+        <script src="js/index.js"></script>
         <!-- /JS HOME FILES -->
         <script>
             setTimeout(function(){
