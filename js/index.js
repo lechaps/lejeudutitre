@@ -147,8 +147,8 @@ Vue.component('component-cards', {
                                         <a href="#" :data-uk-tooltip="'pos: left;title:'+title.description+'...;'" class="uk-icon-link" data-uk-icon="icon:question; ratio: 0.8"></a>
                                     </div>                                  
                                     <div class="uk-width-auto uk-text-right">
-                                        <a href="#" data-uk-tooltip="title: Partager sur Twitter (bientôt disponible)" class="uk-icon-link" data-uk-icon="icon:twitter; ratio: 0.8"></a>
-                                        <a href="#" data-uk-tooltip="title: Partager sur Facebook (bientôt disponible)" class="uk-icon-link" data-uk-icon="icon:facebook; ratio: 0.8"></a>
+                                        <a :href="'https://twitter.com/intent/tweet/?url=www.lejeudutitre.com&text='+title.title+'%0A&via=lejeudutitre'" target="_blank" data-uk-tooltip="title: Partager sur Twitter"  rel="nofollow" class="uk-icon-link" data-uk-icon="icon:twitter; ratio: 0.8"></a>
+                                        <a :href="'https://www.facebook.com/sharer.php?u=www.lejeudutitre.com&t='+title.title+'%0A'"                     target="_blank" data-uk-tooltip="title: Partager sur Facebook" rel="nofollow" class="uk-icon-link" data-uk-icon="icon:facebook; ratio: 0.8"></a>
                                     </div>
                                 </div>
                             </div>
