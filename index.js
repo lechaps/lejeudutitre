@@ -7,7 +7,7 @@ Vue.component('component-cards', {
                     "title"         : "Si tu te met à coté de la fontaine y'a aucune goutte par terre",
                     "category"      : "ça coule source",
                     "description"   : "Discussion de bureau à la pause café",
-                    "sort"          : "top10-card", 
+                    "sort"          : "normal-card", 
                     "icon"          : "paint-bucket", 
                     "author"        : "lechaps"
                 }, 
