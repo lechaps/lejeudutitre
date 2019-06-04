@@ -50,40 +50,26 @@
 	font-size: 0.75rem;
 	letter-spacing: 0.01em;
 }
-.nature-card .uk-card {
-	border-top-color: #1E87F0;
-}
+
 .uk-subnav li a {
 	border-radius: 3px; 
 }
-.uk-subnav li.uk-active:nth-child(3) a {
-	background-color:#8630F0;
-}
-.uk-subnav li.uk-active:nth-child(4) a {
-	background-color:#F03A7F;
-}
-.uk-subnav li.uk-active:nth-child(5) a {
+.uk-subnav li.uk-active:nth-child(2) a {
 	background-color:#E84DF0;
 }
-.nature-card .uk-card .cat-txt {
-	color: #1E87F0;
+.uk-subnav li.uk-active:nth-child(3) a {
+	background-color:#F03A7F;
 }
-.music-card .uk-card {
-	border-top-color: #8630F0;
-}
-.music-card .uk-card .cat-txt {
-	color: #8630F0;
-}
-.design-card .uk-card {
+.top10-card .uk-card {
 	border-top-color: #E84DF0;
 }
-.design-card .uk-card .cat-txt {
+.top10-card .uk-card .cat-txt {
 	color: #E84DF0;
 }
-.photo-card .uk-card {
+.last10-card .uk-card {
 	border-top-color: #F03A7F;
 }
-.photo-card .uk-card .cat-txt {
+.last10-card .uk-card .cat-txt {
 	color: #F03A7F;
 }
 .uk-card .uk-overlay-primary {
