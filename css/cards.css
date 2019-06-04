@@ -60,6 +60,12 @@
 .uk-subnav li.uk-active:nth-child(3) a {
 	background-color:#F03A7F;
 }
+.normal-card .uk-card {
+	border-top-color: #1e87f0;
+}
+.normal-card .uk-card .cat-txt {
+	color: #1e87f0;
+}
 .top10-card .uk-card {
 	border-top-color: #E84DF0;
 }
