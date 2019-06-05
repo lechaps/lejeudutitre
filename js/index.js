@@ -1,19 +1,30 @@
 //Cards component
 Vue.component('component-cards', {
+    data () {
+        return {
+            titlelist   :  null,
+            loading     : true,
+            error       : false,
+        }  
+    },
     mounted () {
-        //axios
-        //.get('https://lejeudutitre-c09ba.firebaseio.com/titlelist.json')
-        //.then(response => (
-        //    this.titlelist = response.data) 
-        //)
-        //.catch(error => {
-        //    console.log(error)
-        //    this.errored = true
-        //})
-        //.finally(() => this.loading = false)
+        axios
+        .get('https://lejeudutitre-c09ba.firebaseio.com/titlelist.json')
+        .then(response => (
+            this.titlelist = response.data,
+            console.log( response.data))
+            
+        )
+        .catch(error => {
+            console.log(error)
+            this.error = true
+        })
+        .finally(() => this.loading = false)
     },
     template: ` <div class="uk-grid uk-grid-medium uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l  uk-child-width-1-5@xl uk-grid-match js-filter" data-uk-grid="masonry:true" >
-                    <div v-for="title in titlelist" v-bind:title="title" :class="title.sort">
+                    <div v-if="error"><p>Erreur de chargement</p></div>
+                    <div v-else v-if="loading"><div uk-spinner="ratio: 6"></div></div>
+                    <div v-else v-for="title in titlelist" v-bind:title="title" :class="title.sort">
                         <div class="uk-card uk-card-small uk-card-default uk-animation-shake">
                             <div class="uk-card-header">
                                 <div class="uk-grid uk-grid-small uk-text-small" data-uk-grid>
