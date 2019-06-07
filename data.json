@@ -1,119 +1,132 @@
 [
     {
+        "id"            : "1",
         "label"         : "Si tu te met à coté de la fontaine y'a aucune goutte par terre",
         "category"      : "ça coule source",
         "description"   : "Discussion de bureau à la pause café",
         "sort"          : "normal-card", 
         "icon"          : "paint-bucket", 
         "author"        : "LeChaps", 
-        "vote"          : "3"
+        "vote"          : "0"
     }, 
     {
+        "id"            : "2",
         "label"         : "Tape devant c'est pas à nous",
         "category"      : "Circulation",
         "description"   : "Quelqu'un qui aide une amie à se garer en créneau",
         "sort"          : "top10-card", 
         "icon"          : "cart", 
         "author"        : "Hervé", 
-        "vote"          : "3"
+        "vote"          : "0"
     },
     {
+        "id"            : "3",
         "label"         : "Ôtes ta langue, que je pète",
         "category"      : "Romantisme",
         "description"   : "Une femme à son compagnon en train de l'embrasser",
         "sort"          : "top10-card", 
         "icon"          : "heart", 
         "author"        : "LeChaps", 
-        "vote"          : "3"
+        "vote"          : "0"
     },
     {
+        "id"            : "4",
         "label"         : "Change de trou ça fume",
         "category"      : "Bricolage",
         "description"   : "Quelqu'un qui conseil un ami en plein bricolage",
         "sort"          : "top10-card", 
         "icon"          : "lifesaver", 
         "author"        : "LeChaps", 
-        "vote"          : "3"
+        "vote"          : "0"
     },
     {
+        "id"            : "5",
         "label"         : "Met de la lumière je vois rien.",
         "category"      : "Bricolage",
         "description"   : "Un chef de chantier exigeant",
         "sort"          : "top10-card", 
         "icon"          : "camera", 
         "author"        : "LeChaps", 
-        "vote"          : "3"
+        "vote"          : "0"
     },
     {
+        "id"            : "6",
         "label"         : "Finalement je préfère ta mère",
         "category"      : "On avait dit pas les mamans",
         "description"   : "Conversation de famille",
         "sort"          : "top10-card", 
         "icon"          : "users", 
         "author"        : "LeChaps", 
-        "vote"          : "3"
+        "vote"          : "0"
     },
     {
+        "id"            : "7",
         "label"         : "J'irai bien au fond mais ton père est déjà passé",
         "category"      : "ça reste en famille",
         "description"   : "Quelqu'un se plaignant qu'un père de famille ait déjà pris la place au cinéma",
         "sort"          : "top10-card", 
         "icon"          : "users", 
         "author"        : "LeChaps", 
-        "vote"          : "3"
+        "vote"          : "0"
     },
     {
+        "id"            : "8",
         "label"         : "Tu faisais pas le même bruit la dernière fois",
         "category"      : "Une bonne mémoire",
         "description"   : "A propos du mécanisme de son stylo",
         "sort"          : "top10-card", 
         "icon"          : "microphone", 
         "author"        : "LeChaps", 
-        "vote"          : "3"
+        "vote"          : "0"
     },
     {
+        "id"            : "9",
         "label"         : "Oh, t'as encore changé de coupe !",
         "category"      : "Observateurs",
         "description"   : "Conversation de collègue, après un passage chez le coiffeur",
         "sort"          : "top10-card", 
         "icon"          : "image", 
         "author"        : "LeChaps", 
-        "vote"          : "3"
+        "vote"          : "0"
     },
     {
+        "id"            : "10",
         "label"         : "T'as bientôt fini où je décommande le prochain ?",
         "category"      : "Gourmand",
         "description"   : "Conversation de travail en déplacement professionnel, retardant la commande d'un taxi",
         "sort"          : "top10-card", 
         "icon"          : "receiver", 
         "author"        : "LeChaps", 
-        "vote"          : "3"
+        "vote"          : "0"
     },
     {
+        "id"            : "11",
         "label"         : "J'ai fini ! J'appelle mes potes ?",
         "category"      : "Le sens du partage",
         "description"   : "Pendant une partie de playstation",
         "sort"          : "last10-card", 
         "icon"          : "users", 
         "author"        : "LeChaps", 
-        "vote"          : "3"
+        "vote"          : "0"
     },
     {
+        "id"            : "12",
         "label"         : "J'ai ouvert une porte que j'aurai pas dû !",
         "category"      : "Défense d'entrer",
         "description"   : "Réflexion à propos d'une porte de réunion ouverte en plein comité de direction",
         "sort"          : "last10-card", 
         "icon"          : "git-branch", 
         "author"        : "LeChaps", 
-        "vote"          : "3"
+        "vote"          : "0"
     },
     {
+        "id"            : "13",
         "label"         : "On peut tremper une fois mille personnes, mais pas mille fois une personne...euh...",
         "category"      : "Prenez un chewing gum Emile",
         "description"   : "Lapsus révélateur de bon goût cinématographique",
         "sort"          : "last10-card", 
         "icon"          : "video-camera", 
         "author"        : "LeChaps", 
-        "vote"          : "3"
+        "vote"          : "0"
     }
 ]
