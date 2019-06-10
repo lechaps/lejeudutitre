@@ -99,11 +99,11 @@ Vue.component('component-cards-vote', {
             if (!this.voted)   {
                 this.counter++, 
                 this.voted = true,
-                createCookie(this.id,this.voted,30),     // enregistrement du vote du user de la page
+                createCookie(this.id,this.voted,30),        // enregistrement du vote du user de la page
                 axios
-                    .post('')                           // todo : enregistrement dans la source de données
+                    .get('API/vote.php?id='+this.id)   // enregistrement dans la source de données
                     .then(response => (UIkit.notification({
-                        message: "Merci, votre avis pris en compte.",
+                        message: console.log(response.data),
                         status: 'success',
                         pos: 'bottom-center',
                         timeout: 5000
