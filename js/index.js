@@ -38,7 +38,7 @@ Vue.component('component-cards', {
     },
     mounted () {
         axios
-        .get('data.json')
+        .get('https://www.lejeudutitre.com/API/')
         .then(response => (this.titlelist = response.data))
         .catch(error => {
             console.log(error)
