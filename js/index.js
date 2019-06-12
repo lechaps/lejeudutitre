@@ -49,7 +49,7 @@ Vue.component('component-cards', {
     template: ` <div class="uk-grid uk-grid-medium uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l  uk-child-width-1-5@xl uk-grid-match js-filter" data-uk-grid="masonry:true" >
                     <div v-if="errored"><p>Erreur de chargement</p></div>
                     <div v-else v-if="loading"><div uk-spinner="ratio: 6"></div></div>
-                    <div v-else v-for="title in titlelist" v-bind:title="title" :class="title.sort">
+                    <div v-else v-for="title in titlelist" :class="title.sort">
                         <div class="uk-card uk-card-small uk-card-default uk-animation-shake">
                             <div class="uk-card-header">
                                 <div class="uk-grid uk-grid-small uk-text-small" data-uk-grid>
