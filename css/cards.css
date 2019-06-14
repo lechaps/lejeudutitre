@@ -55,28 +55,31 @@
 	border-radius: 3px; 
 }
 .uk-subnav li.uk-active:nth-child(2) a {
-	background-color:#E84DF0;
-}
-.uk-subnav li.uk-active:nth-child(3) a {
 	background-color:#F03A7F;
 }
-.normal-card .uk-card {
-	border-top-color: #1e87f0;
+.uk-subnav li.uk-active:nth-child(3) a {
+	background-color:#E84DF0;
 }
-.normal-card .uk-card .cat-txt {
-	color: #1e87f0;
+.uk-subnav li.uk-active:nth-child(4) a {
+	background-color:#8630F0;
 }
-.top10-card .uk-card {
-	border-top-color: #E84DF0;
-}
-.top10-card .uk-card .cat-txt {
-	color: #E84DF0;
-}
-.last10-card .uk-card {
+.charme-card .uk-card {
 	border-top-color: #F03A7F;
 }
-.last10-card .uk-card .cat-txt {
+.charme-card .uk-card .cat-txt {
 	color: #F03A7F;
+}
+.erotic-card .uk-card {
+	border-top-color: #E84DF0;
+}
+.erotic-card .uk-card .cat-txt {
+	color: #E84DF0;
+}
+.xxx-card .uk-card {
+	border-top-color: #8630F0;
+}
+.xxx-card .uk-card .cat-txt {
+	color: #8630F0;
 }
 .uk-card .uk-overlay-primary {
 	padding:  0.5rem;
@@ -153,3 +156,7 @@ img[data-src][src*='data:image'] { background: rgba(0,0,0,0.1); }
 	border-radius: 3px;
 	box-shadow: 0 4px 14px rgba(0,0,0,0.1);
 }
+
+.uk-background-badge {
+	background-color: #28a745;
+  }

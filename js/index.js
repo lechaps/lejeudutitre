@@ -31,15 +31,15 @@ function readCookie(name) {
 Vue.component('component-cards', {
     data () {
         return {
-            titlelist   : null,
-            loading     : true,
-            errored     : false,
+            titles  : null,
+            loading : true,
+            errored : false,
         }  
     },
     mounted () {
         axios
         .get('https://www.lejeudutitre.com/API/')
-        .then(response => (this.titlelist = response.data))
+        .then(response => (this.titles = response.data))
         .catch(error => {
             console.log(error)
             this.errored = true
@@ -49,7 +49,7 @@ Vue.component('component-cards', {
     template: ` <div class="uk-grid uk-grid-medium uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l  uk-child-width-1-5@xl uk-grid-match js-filter" data-uk-grid="masonry:true" >
                     <div v-if="errored"><p>Erreur de chargement</p></div>
                     <div v-else v-if="loading"><div uk-spinner="ratio: 6"></div></div>
-                    <div v-else v-for="title in titlelist" :class="title.sort">
+                    <div v-else v-for="title in titles" :class="title.sort+'-card'">
                         <div class="uk-card uk-card-small uk-card-default uk-animation-shake">
                             <div class="uk-card-header">
                                 <div class="uk-grid uk-grid-small uk-text-small" data-uk-grid>
@@ -57,6 +57,7 @@ Vue.component('component-cards', {
                                         <span class="cat-txt">{{title.category}}</span>
                                         <a href="#" :data-uk-tooltip="'pos: left;title:'+title.description+'...;'"  class="uk-icon-link" data-uk-icon="icon:info;ratio: 0.8"></a>
                                     </div>
+                                    <span v-if="title.new === '1'" class="uk-badge uk-background-badge"><small>New</small></span>
                                     <div class="uk-width-auto uk-text-right uk-text-muted">
                                         <span :data-uk-icon="'icon:'+title.icon+'; ratio: 0.8'" :data-uk-tooltip="'pos: left;title: Proposé par '+title.author+';'"></span>
                                     </div>
@@ -103,7 +104,7 @@ Vue.component('component-cards-vote', {
                 axios
                     .get('API/vote.php?id='+this.id)   // enregistrement dans la source de données
                     .then(response => (UIkit.notification({
-                        message: console.log(response.data),
+                        message: 'À voté !',
                         status: 'success',
                         pos: 'bottom-center',
                         timeout: 5000
@@ -129,7 +130,52 @@ Vue.component('component-cards-countervote', {
                 <span  v-else="modified"    class="uk-badge"  >{{this.counter}}</span>`
 });
 
+/*------------------------------------------------------------------------*/
+//wall of shame
+Vue.component('component-wallofshame', {
+    data () {
+        return {
+            authors   : null,
+            loading     : true,
+            errored     : false,
+        }  
+    },
+    mounted () {
+        axios
+        .get('https://www.lejeudutitre.com/API/author.php')
+        .then(response => (this.authors = response.data))
+        .catch(error => {
+            console.log(error)
+            this.errored = true
+        })
+        .finally(() => this.loading = false)
+    },
+    template: ` <div class="uk-modal-dialog uk-modal-body">
+                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                    <div class="uk-modal-header"><h2 class="uk-modal-title">The wall of shame</h2> Remercions les contributeurs du site lejeudutitre.com</div>
+                    <div v-if="errored"><p>Erreur de chargement</p></div>
+                    <div v-else v-if="loading"><div uk-spinner="ratio: 6"></div></div>
+                    <div v-else class="uk-modal-body uk-overflow-auto uk-text-muted uk-text-small">
+                        <ul class="uk-list uk-list-striped">
+                            <li v-for="author in authors">{{author.author}} &nbsp;<i v-if="author.author === 'LeChaps'">Le Créateur</i></li>
+                        </ul>
+                        <p>On va pas se mentir, pour l'instant c'est un peu limité, mais je suis sur que vous n'aurez bientôt pas honte de figurer ici !</p>
+                    </div>
+                    <div class="uk-modal-footer uk-text-right">
+                        <a href="http://www.leetchi.com/c/www-lejeudutitre-com" target="_blank"><button class="uk-button uk-button-danger"><span uk-icon="heart"></span>&nbsp;Faire un don</button></a>
+                    
+                        <button class="uk-button uk-button-primary uk-modal-close" type="button">Fermer</button>
+                    </div>
+                </div>
+                `
+});
+
+
 /**************** C O M P O N E N T   A C T I V A T I O N ****************/
 new Vue(
     { el: '#indexVue'}
+);
+
+new Vue(
+    { el: '#modal-close-default'}
 );
