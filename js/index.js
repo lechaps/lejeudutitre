@@ -70,8 +70,8 @@ Vue.component('component-cards', {
                                 <div class="uk-grid uk-grid-small uk-grid-divider uk-flex uk-flex-middle" data-uk-grid>
                                     <component-cards-vote v-bind:title="title"></component-cards-vote>                             
                                     <div class="uk-width-auto uk-text-right">
-                                        <a :href="'https://twitter.com/intent/tweet/?url=www.lejeudutitre.com&text='+title.title+'%0A&via=lejeudutitre'" target="_blank" data-uk-tooltip="title: Partager sur Twitter"  rel="nofollow" class="uk-icon-link" data-uk-icon="icon:twitter; ratio: 0.8"></a>
-                                        <a :href="'https://www.facebook.com/sharer.php?u=www.lejeudutitre.com&t='+title.title+'%0A'"                     target="_blank" data-uk-tooltip="title: Partager sur Facebook" rel="nofollow" class="uk-icon-link" data-uk-icon="icon:facebook; ratio: 0.8"></a>
+                                        <a :href="'https://twitter.com/intent/tweet/?url=www.lejeudutitre.com&text='+title.label+'%0A&via=lejeudutitre'" target="_blank" data-uk-tooltip="title: Partager sur Twitter"  rel="nofollow" class="uk-icon-link" data-uk-icon="icon:twitter; ratio: 0.8"></a>
+                                        <a :href="'https://www.facebook.com/sharer.php?u=www.lejeudutitre.com&t='+title.label+'%0A'"                     target="_blank" data-uk-tooltip="title: Partager sur Facebook" rel="nofollow" class="uk-icon-link" data-uk-icon="icon:facebook; ratio: 0.8"></a>
                                     </div>
                                 </div>
                             </div>
@@ -159,7 +159,7 @@ Vue.component('component-wallofshame', {
                         <ul class="uk-list uk-list-striped">
                             <li v-for="author in authors">{{author.author}} &nbsp;<i v-if="author.author === 'LeChaps'">Le Créateur</i></li>
                         </ul>
-                        <p>On va pas se mentir, pour l'instant c'est un peu limité, mais je suis sur que vous n'aurez bientôt pas honte de figurer ici !</p>
+                        <p>On va pas se mentir, pour l'instant c'est un peu limité, mais avouez que vous n'aurez bientôt pas honte de figurer ici ;-)</p>
                     </div>
                     <div class="uk-modal-footer uk-text-right">
                         <a href="http://www.leetchi.com/c/www-lejeudutitre-com" target="_blank"><button class="uk-button uk-button-danger"><span uk-icon="heart"></span>&nbsp;Faire un don</button></a>
