@@ -159,7 +159,7 @@ Vue.component('component-wallofshame', {
                         <ul class="uk-list uk-list-striped">
                             <li v-for="author in authors">{{author.author}} &nbsp;<i v-if="author.author === 'LeChaps'">Le Créateur</i></li>
                         </ul>
-                        <p>On va pas se mentir, pour l'instant c'est un peu limité, mais je suis sur que vous n'aurez bientôt pas honte de figurer ici !</p>
+                        <p>On va pas se mentir, pour l'instant c'est un peu limité, mais avouez que vous n'aurez bientôt pas honte de figurer ici ;-)</p>
                     </div>
                     <div class="uk-modal-footer uk-text-right">
                         <a href="http://www.leetchi.com/c/www-lejeudutitre-com" target="_blank"><button class="uk-button uk-button-danger"><span uk-icon="heart"></span>&nbsp;Faire un don</button></a>
