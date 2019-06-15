@@ -71,7 +71,7 @@ Vue.component('component-cards', {
                                     <component-cards-vote v-bind:title="title"></component-cards-vote>                             
                                     <div class="uk-width-auto uk-text-right">
                                         <a :href="'https://twitter.com/intent/tweet/?url=www.lejeudutitre.com&text='+title.label+'%0A&via=lejeudutitre'" target="_blank" data-uk-tooltip="title: Partager sur Twitter"  rel="nofollow" class="uk-icon-link" data-uk-icon="icon:twitter; ratio: 0.8"></a>
-                                        <a :href="'https://www.facebook.com/sharer.php?u=www.lejeudutitre.com&t='+title.label+'%0A'"                     target="_blank" data-uk-tooltip="title: Partager sur Facebook" rel="nofollow" class="uk-icon-link" data-uk-icon="icon:facebook; ratio: 0.8"></a>
+                                        <a :href="'https://www.facebook.com/sharer.php?u=www.lejeudutitre.com&t='+title.label+'%0A'"                     target="_blank" data-uk-tooltip="title: Partager sur Facebook" rel="nofollow" class="uk-icon-link" data-uk-icon="icon:facebook;ratio: 0.8"></a>
                                     </div>
                                 </div>
                             </div>
@@ -171,7 +171,9 @@ Vue.component('component-wallofshame', {
 });
 
 
-/**************** C O M P O N E N T   A C T I V A T I O N ****************/
+/****************************************************************************************************************************************** */
+/*                                       C O M P O N E N T   A C T I V A T I O N                                                            */
+/****************************************************************************************************************************************** */
 new Vue(
     { el: '#indexVue'}
 );
