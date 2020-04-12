@@ -2,7 +2,8 @@
     <div class="row">
         <div class="col-md-12">
             <div class="main-timeline9">
-                {{ range where .Site.RegularPages.ByPublishDate.Reverse "Section" "titre"}}
+                {{ $pages := where .Site.RegularPages "Section" "titre" }}
+                {{ range ($pages.ByParam "date").Reverse }}
                     <div class="timeline">
                         <div class="timeline-content">
                             <div class="circle"><span><i class="{{ .Params.icon }}"></i></span></div>
@@ -11,7 +12,7 @@
                                 <p class="description">{{ .Content }}</p>
                                 <i class="fab fa-twitter-square"></i>&nbsp;
                                 <i class="fab fa-facebook-square"></i>
-                                <div class="icon"><span ></span></div>
+                                <div class="icon"><span ></span></div>  
                             </div>
                         </div>
                     </div>

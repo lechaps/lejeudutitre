@@ -1,5 +1,5 @@
 +++
-date = "2019-05-01T:20:20+05:30"
+date = "2019-05-01T20:20:20+05:30"
 title = "Bricolage"
 icon ="fas fa-tools"
 +++

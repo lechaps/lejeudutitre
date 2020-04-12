@@ -1,5 +1,5 @@
 +++
-date = "2019-11-01T:20:20+05:30"
+date = "2019-11-01T20:20:20+05:30"
 title = "Nettoyage"
 icon ="fas fa-crutch"
 +++

@@ -1,5 +1,5 @@
 +++
-date = "2019-06-01T:20:20+05:30"
+date = "2019-06-01T20:20:20+05:30"
 title = "Écrivain"
 icon ="fas fa-pen-alt"
 +++

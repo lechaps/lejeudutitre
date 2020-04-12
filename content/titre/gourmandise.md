@@ -1,5 +1,5 @@
 +++
-date = "2020-01-15T:20:20+05:30"
+date = "2020-01-15T20:20:20+05:30"
 title = "Gourmandise"
 icon ="fas fa-ice-cream"
 +++

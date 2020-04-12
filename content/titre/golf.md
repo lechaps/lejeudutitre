@@ -1,6 +1,6 @@
 +++
-date = "2020-04-01T:20:20+05:30"
-title = "Reconnaissance faciale"
+date = "2020-04-01T20:20:20+05:30"
+title = "Golf"
 icon ="fas fa-golf-ball"
 +++
 

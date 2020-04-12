@@ -1,5 +1,5 @@
 +++
-date = "2020-07-01T:20:20+05:30"
+date = "2020-07-01T20:20:20+05:30"
 title = "Réunion"
 icon ="fas fa-door-closed"
 +++
