@@ -1,0 +1,10 @@
+baseURL = "https://www.lejeudutitre.com/"
+languageCode = "fr-FR"
+title = "Le jeu du titre"
+theme = "ljdt"
+
+[outputs]
+    home = ["html"]
+
+[params]
+    subtitle = "le jeu des obsédés...de la conversation"
