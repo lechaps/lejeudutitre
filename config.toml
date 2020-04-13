@@ -2,6 +2,7 @@ baseURL = "https://www.lejeudutitre.com/"
 languageCode = "fr-FR"
 title = "Le jeu du titre"
 theme = "ljdt"
+googleAnalytics = "UA-163514620-1"
 
 [outputs]
     home = ["html"]
