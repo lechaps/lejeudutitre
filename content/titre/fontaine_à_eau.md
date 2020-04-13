@@ -1,5 +1,5 @@
 +++
-date = "2019-08-15T:20:20+05:30"
+date = "2019-08-15T20:20:20+05:30"
 title = "Fontaine à eau"
 icon = "fas fa-hand-holding-water"
 +++

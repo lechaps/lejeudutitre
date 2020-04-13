@@ -1,5 +1,5 @@
 +++
-date = "2020-03-20T:20:20+05:30"
+date = "2020-03-20T20:20:20+05:30"
 title = "Reconnaissance faciale"
 icon ="fas fa-mobile-alt"
 +++

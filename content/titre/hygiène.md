@@ -1,5 +1,5 @@
 +++
-date = "2019-11-15T:20:20+05:30"
+date = "2019-11-15T20:20:20+05:30"
 title = "Hygiène"
 icon ="fas fa-pump-soap"
 +++

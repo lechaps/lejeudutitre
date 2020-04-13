@@ -1,5 +1,5 @@
 +++
-date = "2020-12-15T:20:20+05:30"
+date = "2020-12-15T20:20:20+00:00"
 title = "Accueil"
 icon ="fas fa-door-open"
 +++
