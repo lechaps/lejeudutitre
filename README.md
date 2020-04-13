@@ -18,6 +18,23 @@ $ hugo server
 ```
 Ensuite saisir [`localhost:1313`](http://localhost:1313) son navigateur préféré
 
+## Proposer un titre
+
+C'est très simple, il suffit de créer un fichier dans le repertoire content/titre en respectant le format markdown
+```
++++
+date = "AAAA-MM-DDT20:20:20+00:00"
+title = "Un titre court"
+icon = "une icone de fontawesome https://fontawesome.com/icons?d=gallery"
++++
+
+_Les didascalies en italique_
+* _(Un personnage)_ : Un dialogue bien senti
+* _(Un autre personnage)_ : **Le titre en gras!**
+```
+
+Nous attendons vos propositions pour alimenter le site !
+
 ### CI & deploy 
 [![CircleCI](https://circleci.com/gh/lechaps/cluboeno.svg?style=svg)](https://circleci.com/gh/lechaps/cluboeno)
 

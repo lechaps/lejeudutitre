@@ -7,4 +7,10 @@ theme = "ljdt"
     home = ["html"]
 
 [params]
-    subtitle = "le jeu des obsédés...de la conversation"
+    author = "LeChaps"
+    subtitle = "Le jeu des obsédés...de la conversation"
+    mail ="proposition@lejeudutitre.com"
+    facebook = "https://www.facebook.com/lejeudutitre"
+    twitter = "https://www.twitter.com/lejeudutitre"
+    github = "https://github.com/lechaps/lejeudutitre"
+    leetchi = "http://www.leetchi.com/c/www-lejeudutitre-com"
