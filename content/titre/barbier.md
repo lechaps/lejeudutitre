@@ -1,7 +1,7 @@
 +++
 date = "2020-04-13T16:00:00+05:30"
 title = "Barbier"
-icon ="fas fa-jenkins"
+icon ="fab fa-jenkins"
 +++
 
 _Deux personnes parlent des répercussions personnelles du confinement..._
