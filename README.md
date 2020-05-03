@@ -20,12 +20,12 @@ Ensuite saisir [`localhost:1313`](http://localhost:1313) son navigateur préfér
 
 ## Proposer un titre
 
-C'est très simple, il suffit de créer un fichier dans le repertoire content/titre en respectant le format markdown
+C'est très simple, il suffit de créer un fichier dans le repertoire **content/titre** en respectant le format markdown
 ```
 +++
 date = "AAAA-MM-DDT20:20:20+00:00"
-title = "Un titre court"
-icon = "une icone de fontawesome https://fontawesome.com/icons?d=gallery"
+title = "Un titre (court de préférence)"
+icon = "une icone de fontawesome (que vous trouverez ici https://fontawesome.com/icons?d=gallery)"
 +++
 
 _Les didascalies en italique_
@@ -49,3 +49,7 @@ Thanks to [Steve Francia](https://github.com/spf13) for creating Hugo and the aw
 mmm, i don't have sponsors. But do i need them?
 
 [lechaps](https://github.com/lechaps)
+
+## Contributeur
+
+@artheriom
