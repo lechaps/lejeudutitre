@@ -36,7 +36,7 @@ _Les didascalies en italique_
 Nous attendons vos propositions pour alimenter le site !
 
 ### CI & deploy 
-[![CircleCI](https://circleci.com/gh/lechaps/cluboeno.svg?style=svg)](https://circleci.com/gh/lechaps/cluboeno)
+[![CircleCI](https://circleci.com/gh/lechaps/lejeudutitre.svg?style=svg)](https://circleci.com/gh/lechaps/lejeudutitre)
 
 Powered by **https://circleci.com**
 
