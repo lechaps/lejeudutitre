@@ -4,7 +4,7 @@ Merci de vouloir contribuer au jeu du titre ! Voici une méthode simple de contr
 * Forkez le projet dans votre GitHub personnel
 * Dans le dossier `content/titre`, ajoutez un nouveau fichier, avec votre titre (pensez à bien suivre la nomenclature)
 * Envoyez la modification, et ouvrez une pull-request !
-* Note : De préférence, un seul titre à la fois, sinon c'est trop gros... Titre.
+* Note : De préférence, un seul à la fois, sinon c'est trop gros... (tiens, un titre!).
 
 ## Format du fichier :
 ```md
