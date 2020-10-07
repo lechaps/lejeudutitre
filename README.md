@@ -18,20 +18,9 @@ $ hugo server
 ```
 Ensuite saisir [`localhost:1313`](http://localhost:1313) son navigateur préféré
 
-## Proposer un titre
+## Contribuer
 
-C'est très simple, il suffit de créer un fichier dans le repertoire **content/titre** en respectant le format markdown
-```
-+++
-date = "AAAA-MM-DDT20:20:20+00:00"
-title = "Un titre (court de préférence)"
-icon = "une icone de fontawesome (que vous trouverez ici https://fontawesome.com/icons?d=gallery)"
-+++
-
-_Les didascalies en italique_
-* _(Un personnage)_ : Un dialogue bien senti
-* _(Un autre personnage)_ : **Le titre en gras!**
-```
+Jeter un oeil à [`Comment contribuer ?`](CONTRIBUTING.md)  
 
 Nous attendons vos propositions pour alimenter le site !
 
