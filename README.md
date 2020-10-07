@@ -1,6 +1,6 @@
 # Le Jeu du titre
 
-[`www.lejeudutitre.com`](www.lejeudutitre.com) a pour but de rassembler les meilleurs proposition au « Jeu de la sextape » initié par la série _Brooklyn Nine-Nine_.  C’est une blague équivalente au « That’s what she said » (« C’est ce qu’elle m’a dit hier soir ») de Michael Scott (Steve Carell) dans la version américaine de The Office.
+[`www.lejeudutitre.com`](https://www.lejeudutitre.com) a pour but de rassembler les meilleurs proposition au « Jeu de la sextape » initié par la série _Brooklyn Nine-Nine_.  C’est une blague équivalente au « That’s what she said » (« C’est ce qu’elle m’a dit hier soir ») de Michael Scott (Steve Carell) dans la version américaine de The Office.
 
 ## Installation
 
