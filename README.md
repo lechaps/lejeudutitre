@@ -41,4 +41,5 @@ mmm, i don't have sponsors. But do i need them?
 
 ## Contributeur
 
-@artheriom
+
+[artheriom](https://github.com/@artheriom)
